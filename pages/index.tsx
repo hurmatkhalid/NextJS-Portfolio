@@ -40,10 +40,10 @@ export default function Home() {
 						</h2>
 						<h3 className="text-2xl py-2">Developer and Film Maker</h3>
 						<p className="text-md py-5 leading-8 text-gray-800">
-							I'm a college sophomore doing my BTech in computer science and a
-							diploma in Data Science. I am a front-end web developer. I like to
-							build my projects from the ground up, from planning and designing
-							all the way to solving real-life problems with code.
+							I&apos;m a college sophomore doing my BTech in computer science
+							and a diploma in Data Science. I am a front-end web developer. I
+							like to build my projects from the ground up, from planning and
+							designing all the way to solving real-life problems with code.
 						</p>
 					</div>
 					<div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
