@@ -1,5 +1,13 @@
 import Head from 'next/head';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
+import {
+	AiFillTwitterCircle,
+	AiFillLinkedin,
+	AiFillInstagram,
+} from 'react-icons/ai';
+import Image from 'next/image';
+import hurmat from '../public/me.jpeg';
+
 export default function Home() {
 	return (
 		<div>
@@ -9,9 +17,9 @@ export default function Home() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<main className=" bg-teal-100 px-10">
+			<main className=" bg-white px-10">
 				<section className="min-h-screen">
-					<nav className="p-10 mb-12 flex justify-between">
+					<nav className="py-6 mb-12 flex justify-between">
 						<h1 className=" text-xl font-burtons">Hurmat</h1>
 						<ul className="flex items-center">
 							<li>
@@ -19,21 +27,48 @@ export default function Home() {
 							</li>
 							<li>
 								<a
-									className=" bg-gradient-to-r from-cyan-300 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+									className=" bg-gradient-to-r from-cyan-300 to-teal-600 text-white px-4 py-2 rounded-md ml-8"
 									href="#">
 									Resume
 								</a>
 							</li>
 						</ul>
 					</nav>
-					<div>
-						<h2>Hurmat Khalid</h2>
-						<h3>Developer and Film Maker</h3>
-						<p>
+					<div className="text-center p-0">
+						<h2 className="text-5xl p-2 text-teal-600 font-medium">
+							Hurmat Khalid
+						</h2>
+						<h3 className="text-2xl py-2">Developer and Film Maker</h3>
+						<p className="text-md py-5 leading-8 text-gray-800">
 							I'm a college sophomore doing my BTech in computer science and a
 							diploma in Data Science. I am a front-end web developer. I like to
 							build my projects from the ground up, from planning and designing
 							all the way to solving real-life problems with code.
+						</p>
+					</div>
+					<div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+						<AiFillTwitterCircle />
+						<AiFillLinkedin />
+						<AiFillInstagram />
+					</div>
+					<div className="relative mx-auto my-8 rounded-full w-80 h-80">
+						<Image
+							src={hurmat}
+							alt=""
+							layout="fill"
+							objectFit="cover"
+							className="rounded-full"
+						/>
+					</div>
+				</section>
+				<section>
+					<div>
+						<h3 className="text-3xl py-1">Services I offer</h3>
+						<p className="text-md py-2 leading-8 text-gray-800">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Temporibus porro, veniam animi fugiat quas cum suscipit, maiores
+							ea eveniet maxime delectus. Delectus officia nobis vel aliquam
+							quisquam atque, quo nisi.
 						</p>
 					</div>
 				</section>
