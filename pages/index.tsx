@@ -10,7 +10,7 @@ import hurmat from '../public/me.jpeg';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
-
+import web1 from 
 export default function Home() {
 	return (
 		<div>
@@ -84,7 +84,7 @@ export default function Home() {
 						</p>
 					</div>
 					<div>
-						<div className="text-center shadow-lg p-10 rounded-xl my-10">
+						<div className=" flex flex-col justify-center items-center text-center shadow-lg p-10 rounded-xl my-10">
 							<Image src={design} width={100} height={100} alt="" />
 							<h3 className="text-lg font-medium pt-8 pb-2">Designing</h3>
 							<p className="py-2">
@@ -94,7 +94,7 @@ export default function Home() {
 							<p className="text-gray-800 py-1">Photoshop</p>
 							<p className="text-gray-800 py-1">Figma</p>
 						</div>
-						<div className="text-center shadow-lg p-10 rounded-xl my-10">
+						<div className="flex flex-col justify-center items-center text-center shadow-lg p-10 rounded-xl my-10">
 							<Image src={code} width={100} height={100} alt="" />
 							<h3 className="text-lg font-medium pt-8 pb-2">Code</h3>
 							<p className="py-2">
@@ -106,7 +106,7 @@ export default function Home() {
 							</p>
 							<p className="text-gray-800 py-1">C++, C, Solidity,</p>
 						</div>
-						<div className="text-center shadow-lg p-10 rounded-xl my-10">
+						<div className="flex flex-col justify-center items-center text-center shadow-lg p-10 rounded-xl my-10">
 							<Image src={consulting} width={100} height={100} alt="" />
 							<h3 className="text-lg font-medium pt-8 pb-2">Mentor</h3>
 							<p className="py-2">
@@ -120,8 +120,22 @@ export default function Home() {
 				</section>
 				<section>
 					<div>
-						<h3></h3>
+						<h3 className="text-3xl py-1">Portfolio</h3>
 					</div>
+					<p className="text-md py-2 leading-8 text-gray-800">
+						he;;o what Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Temporibus porro, veniam animi fugiat quas cum suscipit, maiores ea
+						eveniet maxime delectus. Delectus officia nobis vel aliquam quisquam
+						atque, quo nisi.
+						<span className="text-teal-500">bold element</span> consulted for{' '}
+						<span className="text-teal-500">another</span> Lorem ipsum dolor sit
+						amet, consectetur adipisicing elit. Placeat accusantium expedita
+						deserunt dolores repellendus!
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quia,
+						itaque perspiciatis corporis quam laborum dolorum dicta in provident
+					</p>
 				</section>
 			</main>
 		</div>
