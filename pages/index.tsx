@@ -7,6 +7,9 @@ import {
 } from 'react-icons/ai';
 import Image from 'next/image';
 import hurmat from '../public/me.jpeg';
+import design from '../public/design.png';
+import code from '../public/code.png';
+import consulting from '../public/consulting.png';
 
 export default function Home() {
 	return (
@@ -65,11 +68,32 @@ export default function Home() {
 					<div>
 						<h3 className="text-3xl py-1">Services I offer</h3>
 						<p className="text-md py-2 leading-8 text-gray-800">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Temporibus porro, veniam animi fugiat quas cum suscipit, maiores
-							ea eveniet maxime delectus. Delectus officia nobis vel aliquam
-							quisquam atque, quo nisi.
+							he;;o what Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Temporibus porro, veniam animi fugiat quas cum suscipit,
+							maiores ea eveniet maxime delectus. Delectus officia nobis vel
+							aliquam quisquam atque, quo nisi.
+							<span className="text-teal-500">bold element</span> consulted for{' '}
+							<span className="text-teal-500">another</span> Lorem ipsum dolor
+							sit amet, consectetur adipisicing elit. Placeat accusantium
+							expedita deserunt dolores repellendus!
 						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quia,
+							itaque perspiciatis corporis quam laborum dolorum dicta in
+							provident
+						</p>
+					</div>
+					<div>
+						<div className=" items-center text-center shadow-lg p-10 rounded-xl my-10">
+							<Image src={design} width={100} height={100} alt="" />
+							<h3 className="text-lg font-medium pt-8 pb-2">Designing</h3>
+							<p className="py-2">
+								Creating elegant designs suited for your needs
+							</p>
+							<h4 className="py-2 text-teal-600">Tools:</h4>
+							<p className="text-gray-800 py-1">Photoshop</p>
+							<p className="text-gray-800 py-1">Figma</p>
+						</div>
 					</div>
 				</section>
 			</main>
