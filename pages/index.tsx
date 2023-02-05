@@ -71,12 +71,12 @@ export default function Home() {
 						/>
 					</div>
 				</section>
-				<section className="min-h-screen">
+				<section className="min-h-screen text-center">
 					<div>
 						<h3 className="text-3xl py-1 text-center dark:text-gray-500">
 							Services I offer
 						</h3>
-						<p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+						<p className="text-md py-2 leading-8 text-gray-800 dark:text-white text-center">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
 							Temporibus porro, veniam animi fugiat quas cum suscipit, maiores
 							ea eveniet maxime delectus. Delectus officia nobis vel aliquam
@@ -86,7 +86,7 @@ export default function Home() {
 							sit amet, consectetur adipisicing elit. Placeat accusantium
 							expedita deserunt dolores repellendus!
 						</p>
-						<p className="dark:text-white">
+						<p className="dark:text-white text-center">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quia,
 							itaque perspiciatis corporis quam laborum dolorum dicta in
 							provident
@@ -126,7 +126,7 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
-				<section className="py-10">
+				<section className="py-10 text-center">
 					<div>
 						<h3 className="text-3xl py-1 text-center dark:text-gray-500">
 							Portfolio
